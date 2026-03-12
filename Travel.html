@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Travel <3 </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="Web.js"></script>
+    </head>
+    <body>
+        <style>
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        nav a {
+            margin: 0 12px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        </style>
+<header>
+  <h1 style="color:#d16b9b;">Travel</h1>
+  <p>Here you can find out where I've been, and where I want to go! </p>
+</header>
+    <div class="top-nav">
+        <a href="HomePage.html" target = "_blank">Home Page</a>
+    </div>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+    
+<!--images with number and caption text -->
+<div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="IMG_0451.jpeg" style="width:50%">
+    <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="IMG_1934.jpeg" style="width:50%">
+    <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="IMG_0895.jpeg" style="width:50%">
+    <div class="text">Caption Three</div>
+</div>
+
+<!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+<br/>
+<section class="travel-gallery">
+    <video controls width="300">
+        <source src="media/travel-video.mp4" type="video/mp4">
+    </video>
+</section>
+
+<section class="card">
+<h2>Dream Destinations</h2>
+ <ul>
+    <li>Vietnam</li>
+    <li>Peru</li>
+    <li>Jordan</li>
+ </ul>
+
+ <button onclick="highlightTravel()">Highlight Section</button>
+</section>
+
+<hr/>
+<footer>
+    <p>Back to <a href="HomePage.html".html">Home</a></p>
+</footer>
+</body>
+</html>
