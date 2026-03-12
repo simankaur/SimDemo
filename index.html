@@ -4,15 +4,46 @@
         <title>Personal Page <3</title>
     </head>
     <body>
+        <style>
+      header {
+        text-align: center;
+        padding: 20px;
+      }
+      nav a {
+        margin: 0 12px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      </style>
         <header>
         <h1 style= "background-color:#f47eb9; color:antiquewhite; border: 15pt solid #c04a85; text-align: center;">Hiii <3</h1>
+        </header>
+        <nav>
+            <a href="Travel.html" target="_blank">Travel</a>
+        </nav>
+    <section>
+        <button style= "background-color: #ffaad2; color: #4a4a4a" onclick="document.getElementById('intro-text').innerHTML='Thanks for visiting my site <3';">
+    Say Hi !!
+        </button>
+    </section>
         <hr />
-        <h2 style = "background-color: #e568a7; border:10pt solid #e568a7 ; color: #c04a85; padding: 10pt; margin: 15pt;">My name is Siman!</h2>
-        <p style = "font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color:#ea8d8d; background-color:#fbe980; padding: 20pt; border: 10pt solid #e568a7""> I am currently in my foundation year at Leeds Trinity University, studying computer science.</p>
-        <h3 style = "font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color:antiquewhite; background-color:#e568a7; border: 10pt solid #e568a7; padding: 10pt solid #e568a7;">Here's some fun facts about me:</h3>
-        <p style = "font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:large; color:#ea8d8d;">I like gaming, and my favourite animal is a Bengal Tiger</p>
-        <br/>
-        <a href="https://www.youtube.com/watch?v=hO1tzmi1V5g">Here's a link to something I find interesting</a>
-        <hl/> 
+    <section class="cards">
+         <div class="card">
+             <h3>About Me</h3>
+             <p>My name is Siman!</p>
+             <p>I'm studying Computer Science</p>
+        </div>
+            <br/>
+    <section class="cards">
+        <div class="card">
+            <h3>Fun Facts:</h3>
+            <p>I am really interested in Ancient Egypt, here is a video!.</p>
+            <a href="https://www.youtube.com/watch?v=hO1tzmi1V5g"></a>
+            <a href="about.html" class="btn">Read More</a>
+        </div>
+        <hl/>
+    <footer> 
+    <p> Author: Sim </p>
+    </footer>
     </body>
 </html>
